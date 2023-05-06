@@ -1,0 +1,27 @@
+.leaderboardHeader{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #c9c9c9 solid 1px;  
+}
+
+.lh-item{
+  font-style: bold;
+  flex-grow: 1;
+  flex-basis: 100%;
+  
+}
+
+.status{
+  height: 25px;
+  width: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dead{
+  background-image: linear-gradient(#ffac75, #ff9999)
+}
+.alive{
+  background-image: linear-gradient(#a5ffa3, #b8ffbc)
+}
